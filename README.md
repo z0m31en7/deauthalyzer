@@ -40,7 +40,8 @@ git clone https://github.com/z0m31en7/deauthalyzer.git
 ```
 
 ```
-cd deauthalyzer && sudo ./install.sh
+cd deauthalyzer
+chmod +x ./install.sh && ./install.sh
 ```
 
 ```
