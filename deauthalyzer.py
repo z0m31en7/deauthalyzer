@@ -5,6 +5,7 @@ import signal
 import sys
 import time
 import datetime
+import threading
 from termcolor import colored
 
 print("\n")
@@ -28,9 +29,15 @@ def check_root_privileges():
 def get_wifi_interfaces():
     interfaces = psutil.net_if_addrs()
     wifi_interfaces = []
-    for interface, addresses in interfaces.items():
-        if interface.startswith('wlan'):
-            wifi_interfaces.append(interface)
+    for interface, _ in interfaces.items():
+        # check interface ubuntu
+        check_interface = subprocess.check_output(['uname', '-a'])
+        if 'Ubuntu' in check_interface.__str__():
+            if interface.startswith('wlp2s0'):
+                wifi_interfaces.append(interface)
+        else:
+            if interface.startswith('wlan0'):
+                wifi_interfaces.append(interface)
     return wifi_interfaces
 
 def enable_monitor_mode(interface, stealth_mode):
@@ -134,4 +141,3 @@ except ValueError:
 selected_interface = wifi_interfaces[interface_num - 1]
 
 detect_deauth_attack(selected_interface, args.stealth)
-
