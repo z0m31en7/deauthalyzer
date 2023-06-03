@@ -26,7 +26,9 @@
 *   Displays information about the detected attack including the source MAC address.
 *   Provides the option to enable stealth mode during monitoring.
 *   Records details of detected attacks in a log file.
-<br><h2>📺 Preview:</h2><br>
+<br>
+
+<h2>📺 Preview:</h2><br>
 
 <p align="center"><img src="https://raw.githubusercontent.com/z0m31en7/deauthalyzer/main/deauthalyzer.png" alt="project-logo"></p><br>
 

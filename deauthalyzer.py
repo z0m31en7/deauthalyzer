@@ -29,7 +29,7 @@ def check_root_privileges():
 def get_wifi_interfaces():
     interfaces = psutil.net_if_addrs()
     wifi_interfaces = []
-    for interface, _ in interfaces.items():
+    for interface, addresses in interfaces.items():
         if interface.startswith('wl'):
            wifi_interfaces.append(interface)
 
