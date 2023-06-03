@@ -30,14 +30,9 @@ def get_wifi_interfaces():
     interfaces = psutil.net_if_addrs()
     wifi_interfaces = []
     for interface, _ in interfaces.items():
-        # check interface ubuntu
-        check_interface = subprocess.check_output(['uname', '-a'])
-        if 'Ubuntu' in check_interface.__str__():
-            if interface.startswith('wlp2s0'):
-                wifi_interfaces.append(interface)
-        else:
-            if interface.startswith('wlan0'):
-                wifi_interfaces.append(interface)
+        if interface.startswith('wl'):
+           wifi_interfaces.append(interface)
+
     return wifi_interfaces
 
 def enable_monitor_mode(interface, stealth_mode):
