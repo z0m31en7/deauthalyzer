@@ -17,7 +17,7 @@
 <br><p align="center"><img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&amp;logo=linux&amp;logoColor=black" alt="shields"><img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&amp;logo=python&amp;logoColor=white" alt="shields"><img src="https://img.shields.io/badge/Windows-0078D6?style=for-the-badge&amp;logo=windows&amp;logoColor=white" alt="shields"><img src="https://img.shields.io/badge/PyCharm-000000.svg?style=for-the-badge&amp;logo=PyCharm&amp;logoColor=white" alt="shields"><img src="https://img.shields.io/badge/Kali_Linux-557C94?style=for-the-badge&amp;logo=kali-linux&amp;logoColor=white" alt="shields"></p><br>
 
 
-<p align="center"><img src="https://raw.githubusercontent.com/z0m31en7/deauthalyzer/main/logo.png" alt="project-logo"></p>
+<p align="center"><img src="https://lh3.googleusercontent.com/drive-viewer/AITFw-y6I0BVrF8MaNtEwqJsqCffQH-wAi0wqZo2CcZwv30-yg8s926uXo72t3Ky9eayeoAsu0x4q4zPo41YFePaSb8xtc7K=s2560" alt="project-logo"></p>
 
 
 <br><h2>💡 Features:</h2>
@@ -30,7 +30,7 @@
 
 <h2>📺 Preview:</h2><br>
 
-<p align="center"><img src="https://raw.githubusercontent.com/z0m31en7/deauthalyzer/main/deauthalyzer.png" alt="project-logo"></p><br>
+<p align="center"><img src="https://lh3.googleusercontent.com/drive-viewer/AITFw-wqN5trs2lAVb0IOWVGt3nOHP2oBMpYrmFjjXNR6cenvOl2nSbPoBRBJPqqyx9CSavBPA-uZ1BQpCtVMPM-ZRIVZ0bDyg=s1600" alt="project-logo"></p><br>
 
   
  
